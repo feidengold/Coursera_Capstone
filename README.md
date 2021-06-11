@@ -10,7 +10,7 @@ Data required to approach the above business case should include: New York City 
 New York City data containing the neighborhoods and boroughs latitudes and longitudes can be obtained from https://cocl.us/new_york_dataset. While FourSquare API will be used to obtain data on existing laundromats. Population density data per each borough will be extracted from http://www.demographia.com/dm-nyc.htm.
 
 ## Methodology
-After collecting the data from https://cocl.us/new_york_dataset it will be wrangled into a dataframe format. Using the density data from http://www.demographia.com/dm-nyc.htm all above average density boroughs will be mapped onto the map. Then using Foursquare we will locate all venues in the following boroughs and then filter by "laundromat" or "laundry" locations. Finally, the data be will be visually assessed fromthe resulted map.
+After collecting the data from https://cocl.us/new_york_dataset it will be wrangled into a dataframe format. Using the density data from http://www.demographia.com/dm-nyc.htm all above average density boroughs will be mapped onto the map. Then using Foursquare we will locate all venues in the following boroughs and then filter by "laundromat" or "laundry" locations. Finally, the data be will be visually assessed from the resulted map.
 
 ## Business Problem
 What is the best location(s) for laundromat in New York City?
